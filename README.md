@@ -5,7 +5,8 @@
   <br>
 
   [![Code](https://img.shields.io/badge/Code-GitHub-black?logo=github)](https://github.com/luobodan/QLIO)
-  <!-- 可添加 arXiv / YouTube / Bilibili 徽章 -->
+  [![arXiv](https://img.shields.io/badge/arXiv-2503.07949-b31b1b.svg)](https://arxiv.org/abs/2503.07949)
+  [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtu.be/t2pN2poO3hc)
 </div>
 
 <p align="center">
