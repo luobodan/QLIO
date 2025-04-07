@@ -1,3 +1,11 @@
+<!--
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2025-04-07 22:34:58
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2025-04-07 22:48:34
+ * @FilePath: /QLIO_comit/QLIO/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <div align="center">
   <h1>QLIO</h1>
   <h2>Quantized LiDAR-Inertial Odometry</h2>
@@ -35,12 +43,16 @@
 ---
 
 ## 📦 Installation
-
+Very thanks for Fastlio!
+please download the MCD-ntu dataset and then:
 ```bash
+mkdir catkin_ws/src
+cd catkin_ws/src
 # Clone repository
 git clone https://github.com/luobodan/QLIO.git
-
 # Build with catkin
-mkdir -p qlio_ws/src && cd qlio_ws/src
+cd ../
 catkin_make
 source devel/setup.bash
+roslaunch fastlio mapping_ouster128_MCD_ntu.launch
+rosrun your_dataset_path/*.bag
