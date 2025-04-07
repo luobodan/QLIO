@@ -10,7 +10,11 @@
 </div>
 
 <p align="center">
-  <img src="docs/teaser.gif" width="80%">
+  <img src="https://github.com/snakehaihai/QLIO/blob/main/Figure/Motivation.png?raw=true" width="80%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/snakehaihai/QLIO/blob/main/Figure/ezgif-8e43eb40ffdc95.gif?raw=true" width="70%">
 </p>
 
 ---
